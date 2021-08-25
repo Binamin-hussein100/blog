@@ -7,7 +7,7 @@ from .forms import BlogForm,CommentForm,updateProfile,SubscriberForm
 from ..models import Blog,Comment,User,Subscriber
 from ..email import mail_message
 
-@main.route('/',methods = ['GET'])
+@main.route("/")
 def index():
     getquotes = getQuotes()
     return render_template ('index.html',getquotes = getquotes)
