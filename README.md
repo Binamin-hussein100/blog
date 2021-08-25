@@ -18,11 +18,11 @@ Clone this repository and navigate to the folder. Run the following commands to 
 </ol>
 
 ## TECHNOLOGIES USED
-    <li>Python 3</li>
-    <li>HTML5, CSS && Bootstrap</li>
-    <li>Flask</li>
-    <li>Postgresql</li>
-    <li>Heroku</li>
+    Python 3
+    HTML5, CSS && Bootstrap
+    Flask
+    Postgresql
+    Heroku
 
 ## LICENCE
 MIT License Copyright (c) 2021
