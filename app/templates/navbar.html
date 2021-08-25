@@ -43,9 +43,9 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false" href = "/">{{current_user.username}}</a>
         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="{{url_for('auth.logout')}}"><h6 style="color: white;">Logout</h6></a>
+          <a class="dropdown-item" href="{{url_for('auth.logout')}}"><h6 style="color: black;">Logout</h6></a>
           {% else %}
-          <a class="dropdown-item text-dark" href="{{url_for('auth.login')}}"><h6 style="color: white;">Login</h6></a>
+          <a class="dropdown-item text-dark" href="{{url_for('auth.login')}}"><h6 style="color: black;">Login</h6></a>
           {%endif%}
         </div>
       </li>
